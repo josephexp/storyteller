@@ -20,3 +20,73 @@
 .App-link {
   color: #09d3ac;
 }
+.Main {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to left top, green, blue) fixed;
+}
+.Sub {
+  margin-top: 15%;
+  margin-left: 30%;
+  height: 40%;
+  width: 40%;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 30px black;
+}
+.Header {
+  text-align: center;
+  padding-top: 10%;
+  font-size: 50px;
+  font-family: cursive;
+}
+.Container {
+  display: flex;
+  padding-top: 2%;
+  align-items: center;
+  justify-content: center;
+}
+
+.Button {
+  display: flex;
+  overflow: hidden;
+
+  margin: 10px;
+
+  cursor: pointer;
+  user-select: none;
+  transition: all 150ms linear;
+  text-align: center;
+  white-space: nowrap;
+  text-transform: uppercase;
+
+  /* color: #202129; */
+  /* background-color: #ffffff; */
+  border-radius: 4px;
+
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.3;
+
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: 2px 2px 5px #aaaaaa;
+  
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+.Button:hover {
+  box-shadow: 2px 2px 5px black;
+}
+
+@keyframes example {
+  from {
+    background-color: white;
+  }
+  to {
+    background-color: white;
+  }
+  
+}
